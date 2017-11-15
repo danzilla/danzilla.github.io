@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Flix It</title>   <!-- Required meta tags -->
+  <title>Danzilla</title>   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
   <!-- Material Design for Bootstrap fonts and icons -->   <!-- Material Design for Bootstrap CSS -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
   <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.0.0-beta.4/dist/css/bootstrap-material-design.min.css" integrity="sha384-R80DC0KVBO4GSTw+wZ5x2zn2pu4POSErBkf8/fSFhPXHxvHJydT0CSgAP2Yo2r4I" crossorigin="anonymous">
@@ -14,15 +15,7 @@
 </head>
 
 <style>
-  html, body, .mainCon { height: 100%; width: 100%; overflow: hidden;}
-  .text {
-    text-align: center;
-    margin-top: 56px;
-    color: #fff;
-    font-size: 1.0em;
-    font-family: sans-serif;
-    text-transform: uppercase;
-  }
+  html, body, .mainCon { height: 100%; width: 100%; overflow: hidden; cursor: default;}
 
   .animated {
     animation-duration: 2.5s;
@@ -39,20 +32,25 @@
     animation-name: pulse;
     animation-duration: 1s;
   }
+  .noMargin {margin: auto;}
 </style>
 
 
-<body ng-app="flexIt">
+<body class="text-capitalize">
 
 <!-- What -->
 <section id="eventWhat" class="tab mainCon container-fluid animatedParent">
   <div class="container h-100 animated fadeInUpShort delay-750">
     <div class="row h-100 justify-content-center align-items-center">
 
-          <h1 class="display-1">
-              Danzilla
-            <hr class="col-md-9 text animated pulse">
-          </h1>
+
+    <div class="col">
+      <h1 class="display-1 h1 text-center">Danzilla</h1>
+      <hr class="noMargin col-md-3 animated pulse">
+    </div>
+
+
+
 
 
     </div>
