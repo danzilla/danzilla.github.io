@@ -74,8 +74,8 @@ function Resume() {
         
         {/* Education */}
         <div className="card-2" style={{position: "relative", overflow: "hidden"}}>
-          <svg className="svg1" width="100%" style={{ position: 'absolute', transform: 'rotate(180deg)'}}
-            viewBox="10 100 400 200" preserveAspectRatio="xMidYMid meet">
+          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+            viewBox="110 190 450 350" preserveAspectRatio="xMidYMid meet">
             <g>
               <path id="svg_4"
                 stroke="rgba(136, 225, 252, 0.35)"
@@ -83,8 +83,8 @@ function Resume() {
                 fill="rgba(136, 225, 252, 0.1)" />
             </g>
           </svg>
-          <svg className="svg1" width="100%" style={{ position: 'absolute', transform: 'rotate(180deg)'}}
-            viewBox="110 100 300 200" preserveAspectRatio="xMidYMid meet">
+          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+            viewBox="25 105 430 400" preserveAspectRatio="xMidYMid meet">
             <g>
               <path id="svg_4"
                 stroke="rgba(136, 225, 252, 0.35)"
@@ -92,14 +92,26 @@ function Resume() {
                 fill="rgba(136, 225, 252, 0.1)" />
             </g>
           </svg>
-          <svg className="svg1" width="100%" style={{ position: 'absolute', transform: 'rotate(180deg)'}}
-            viewBox="1 120 300 200" preserveAspectRatio="xMidYMid meet">
+          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+            viewBox="10 100 550 330" preserveAspectRatio="xMidYMid meet">
+            <g>
+              <path id="svg_4"
+                stroke="rgba(136, 225, 252, 0.35)"
+                d="m-2,-52.30547c213.92539,-164.88947 427.85073,164.88946 641.77607,0l0,296.80101c-145.92534,122.88948 -463.85068,-190.88945 -641.77607,0l0,-296.80101z"
+                fill="rgba(136, 225, 252, 0.1)" />
+            </g>
+          </svg>
+          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+            viewBox="10 120 550 200" preserveAspectRatio="xMidYMid meet">
             <g> <path d="m-2,-52.30547c213.92539,-164.88947 427.85073,164.88946 641.77607,0l0,296.80101c-145.92534,122.88948 -463.85068,-190.88945 -641.77607,0l0,-296.80101z"
                 stroke="rgba(136, 225, 252, 0.35)"
                 fill="rgba(136, 225, 252, 0.1)" />
             </g>
           </svg>
-          <div className="p-2" ><Education /></div>
+
+          <div className="p-3" style={{position: "relative", zIndex: '100' }}>
+            <Education />
+          </div>
         </div>
 
         {/* Resume */}
@@ -224,9 +236,9 @@ function Resume() {
           </svg>
           <div className="p-3"> 
             <Competence />
-          
           </div>
         </div>
+      
       </Col>
     </Row>
   );

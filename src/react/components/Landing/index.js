@@ -167,9 +167,9 @@ function LandingPage() {
           <Button type="link" danger size={'large'}> 
             <a href="http://instagram.com/danzilla07/">{} Instagram</a> 
           </Button>
-
         </Col>
       </Row>
+
     </>
   );
 }

@@ -8,18 +8,16 @@ const { Header, Footer, Sider, Content } = Layout;
 // Dashboard
 function Dashboard() {
   return (
-    <>
-      <Row style={{ height: "100vh"}}>
-        <Col style={{ height: "100%", overflow: "hidden" }}
-          className="card-4 bodyNiceBlack2" xs={22} sm={22} md={8} lg={8}>
-            <LandingPage />
-        </Col>
-        <Col style={{ height: "100%", overflow: "auto", backgroundColor: "#" }}
-          className="bodyNiceWhite" xs={22} sm={22} md={16} lg={16}>
-            <ResumeTimeline />
-        </Col>
-      </Row>
-    </>
+    <Row style={{ height: "100vh"}}>
+      <Col style={{ height: "100%", overflow: "hidden" }}
+        className="card-4 bodyNiceBlack2" xs={24} sm={24} md={8} lg={8}>
+          <LandingPage />
+      </Col>
+      <Col style={{ height: "100%", overflow: "auto" }}
+        className="bodyNiceWhite" xs={24} sm={24} md={16} lg={16}>
+          <ResumeTimeline />
+      </Col>
+    </Row>
   );
 }
 // State Dashboard
