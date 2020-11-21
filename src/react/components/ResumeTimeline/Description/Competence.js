@@ -12,7 +12,7 @@ class Competence extends Component {
       <>
         <Row style={{ height: 'auto' }} type="flex" justify="center" align="middle">
           {/* Languages */}
-          <Col span={12}>
+          <Col span={8}>
             <Timeline mode='right'>
               <Timeline.Item color="green" label={<p>Languages</p>}>
                 <Text type="danger">HTML, CSS, SASS</Text></Timeline.Item>
@@ -24,7 +24,7 @@ class Competence extends Component {
               <Timeline.Item color="red"><Text type="danger">PowerShell</Text></Timeline.Item>
             </Timeline>
           </Col>
-          <Col span={12}>
+          <Col span={8}>
             {/* Database */}
             <Timeline mode='left'>
               <Timeline.Item color="red"><Text type="danger">PostgreSQL</Text></Timeline.Item>
@@ -41,7 +41,7 @@ class Competence extends Component {
             </Timeline>
           </Col>
           {/* Library */}
-          <Col span={12}>
+          <Col span={8}>
             <Timeline mode='right'>
               <Timeline.Item color="green" label={<p>Framework, Library, Enginez</p>}>
                 <Text type="danger">Python flask</Text></Timeline.Item>
@@ -52,7 +52,7 @@ class Competence extends Component {
             </Timeline>
           </Col>
   
-          <Col span={12}>
+          <Col span={8}>
             <Timeline mode='right'>
               <Timeline.Item color="green" label={<p>Cloud services</p>}>
                 <Text type="danger">Amazon Web Services (Beanstalk, EC2)</Text></Timeline.Item>
@@ -60,7 +60,7 @@ class Competence extends Component {
                 <Text type="danger">Microsoft Azure (VM, App and Web services)</Text></Timeline.Item>
             </Timeline>
           </Col>
-          <Col span={12}>
+          <Col span={8}>
             {/* DevOps Tools */}
             <Timeline mode='right'>
               <Timeline.Item color="green" label={<p>DevOps</p>}><Text type="danger">Docker Container</Text></Timeline.Item>
@@ -72,7 +72,7 @@ class Competence extends Component {
               <Timeline.Item color="red"><Text type="danger">Hyper-V</Text></Timeline.Item>
             </Timeline>
           </Col>
-          <Col span={12}>
+          <Col span={8}>
             <Timeline mode='right'>
               <Timeline.Item color="red">
                 <Text type="danger">Windows Server (2003, 2008, 2012 R2, 2016 Server and Core)</Text></Timeline.Item>
