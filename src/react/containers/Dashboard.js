@@ -4,6 +4,7 @@ import { Layout, Button, Input, Select, Row, Col, Divider } from 'antd';
 // Containers 
 import LandingPage from "../components/Landing";
 import ResumeTimeline from "../components/ResumeTimeline";
+import PictureMyself from "../components/PictureMyself";
 const { Header, Footer, Sider, Content } = Layout;
 // Dashboard
 function Dashboard() {
@@ -16,6 +17,7 @@ function Dashboard() {
       <Col style={{ height: "100%", overflow: "auto" }}
         className="bodyNiceWhite" xs={24} sm={24} md={16} lg={16}>
           <ResumeTimeline />
+          <PictureMyself />
       </Col>
     </Row>
   );
