@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { connect } from "react-redux";
-import { Timeline, Row, Col } from 'antd';
-import { Typography, Space } from 'antd';
-const { Text, Link, Title } = Typography;
+import { Timeline, Typography } from 'antd';
+const { Text } = Typography;
 // Education
 function Education() {
   return (

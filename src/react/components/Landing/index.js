@@ -1,22 +1,14 @@
-import React, { Component, useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { connect } from "react-redux";
-import { Button, Input, Select, Row, Col, Typography, Badge } from 'antd';
-import { Layout } from 'antd';
+import { Button, Row, Col } from 'antd';
 import anime from 'animejs';
-import Tilt from 'react-tilt';
 import Particles from 'react-particles-js';
-import { SearchOutlined, DownloadOutlined } from '@ant-design/icons';
-
-const { Text, Link, Title } = Typography;
-const { Header, Footer, Sider, Content } = Layout;
 
 // LandingPage
 function LandingPage() {
-  const [showYorkVille, setShowYorkVille] = useState(false);
   const animation_1 = useRef(null);
   const animation_2 = useRef(null);
   const bgMove = useRef(null);
-  const animePule = useRef(null);
 
   useEffect(() => {
 

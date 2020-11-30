@@ -4,10 +4,8 @@ import { connect } from "react-redux";
 import UserInfo from "../../components/_test/UserInfo";
 import Form1 from "../../components/_test/Form";
 
-import { Form, Select, InputNumber, DatePicker, Switch, Slider, Button, Typography } from 'antd';
+import { Form } from 'antd';
 
-const { Option } = Select;
-const { Title } = Typography;
 
 class Dashboard extends Component {
   render() {

@@ -1,8 +1,8 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { useState } from "react";
 import { connect } from "react-redux";
-import { Row, Col, Button, Timeline, Typography } from 'antd';
+import { Button, Timeline, Typography } from 'antd';
 import { UpOutlined, DownOutlined, } from '@ant-design/icons';
-const { Text, Link, Title } = Typography;
+const { Text } = Typography;
 // UOITDev
 function UOITDev() {
   const [showUOIT1, setShowUOIT1] = useState(false);
