@@ -1,7 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Row, Col, Image } from 'antd';
-import Tilt from 'react-tilt';
 import Masonry from 'react-masonry-css'
 
 // get ALL images
@@ -30,11 +29,7 @@ function PictureMeMyself() {
           columnClassName="my-masonry-grid_column">
           {/* array of JSX items */}
           {images.map((img, index) => (
-            <Tilt className="Tilt" options={{ max : 25 }} >
-              <div className="Tilt-inner"> 
-                <Image className="card-2" alt="Danustan Alphonza - 'Photograpy', 'coding', 'hobby' " key={index} src={img} />
-              </div>
-            </Tilt>
+            <Image className="card-2" alt="Danustan Alphonza - 'Photograpy', 'coding', 'hobby' " key={index} src={img} />
           ))}
         </Masonry>
 
