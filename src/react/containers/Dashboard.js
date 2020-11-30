@@ -1,11 +1,10 @@
-import React, { Component } from "react";
+import React from "react";
 import { connect } from "react-redux";
-import { Layout, Button, Input, Select, Row, Col, Divider } from 'antd';
+import { Row, Col } from 'antd';
 // Containers 
 import LandingPage from "../components/Landing";
 import ResumeTimeline from "../components/ResumeTimeline";
 import PictureMyself from "../components/PictureMyself";
-const { Header, Footer, Sider, Content } = Layout;
 // Dashboard
 function Dashboard() {
   return (

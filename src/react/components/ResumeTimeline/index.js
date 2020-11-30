@@ -1,7 +1,6 @@
-import React, { Component, useState, useEffect, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import { connect } from "react-redux";
-import { Row, Col, Button, Timeline, Typography, Space, Divider } from 'antd';
-import { UpOutlined, DownOutlined, } from '@ant-design/icons';
+import { Row, Col, Timeline } from 'antd';
 
 import Education from './Description/Education';
 import YorkVilleU from './Description/YorkVilleU';
@@ -15,8 +14,6 @@ import PCC from './Description/PCC';
 import Competence from "./Description/Competence";
 
 import anime from 'animejs';
-
-const { Text, Link, Title } = Typography;
 
 function Resume() {
 

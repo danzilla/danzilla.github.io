@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-
-import { Button, Input, Select, Row, Col } from 'antd';
-import { Typography, Space, Timeline } from 'antd';
-const { Text, Link, Title } = Typography;
+import { Row, Col, Timeline, Typography } from 'antd';
+const { Text } = Typography;
 
 // Competence
 class Competence extends Component {
