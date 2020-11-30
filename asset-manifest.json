@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.0f8fe4a0.chunk.js",
-    "main.js.map": "/static/js/main.0f8fe4a0.chunk.js.map",
+    "main.js": "/static/js/main.5c3047e7.chunk.js",
+    "main.js.map": "/static/js/main.5c3047e7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
     "static/css/2.e94cead9.chunk.css": "/static/css/2.e94cead9.chunk.css",
-    "static/js/2.b33ccaf4.chunk.js": "/static/js/2.b33ccaf4.chunk.js",
-    "static/js/2.b33ccaf4.chunk.js.map": "/static/js/2.b33ccaf4.chunk.js.map",
+    "static/js/2.79e4e30e.chunk.js": "/static/js/2.79e4e30e.chunk.js",
+    "static/js/2.79e4e30e.chunk.js.map": "/static/js/2.79e4e30e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.540bb44c1e0fd6bd25bcbd0c4f258a2a.js": "/precache-manifest.540bb44c1e0fd6bd25bcbd0c4f258a2a.js",
+    "precache-manifest.15c976bf9ff8c06d144e080b4035a9c8.js": "/precache-manifest.15c976bf9ff8c06d144e080b4035a9c8.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.e94cead9.chunk.css.map": "/static/css/2.e94cead9.chunk.css.map",
-    "static/js/2.b33ccaf4.chunk.js.LICENSE.txt": "/static/js/2.b33ccaf4.chunk.js.LICENSE.txt",
+    "static/js/2.79e4e30e.chunk.js.LICENSE.txt": "/static/js/2.79e4e30e.chunk.js.LICENSE.txt",
     "static/media/132IMG_20191214_151634.jpg": "/static/media/132IMG_20191214_151634.1c2f7dc3.jpg",
     "static/media/20190217_152417.jpg": "/static/media/20190217_152417.e5d56d82.jpg",
     "static/media/20200801_204414.jpg": "/static/media/20200801_204414.64d0d64a.jpg",
@@ -39,7 +39,6 @@
     "static/media/IMG_20190419_161223.jpg": "/static/media/IMG_20190419_161223.55601a45.jpg",
     "static/media/IMG_20190531_154617.jpg": "/static/media/IMG_20190531_154617.87440477.jpg",
     "static/media/IMG_20191214_123903.jpg": "/static/media/IMG_20191214_123903.012ef900.jpg",
-    "static/media/IMG_20191214_151634.jpg": "/static/media/IMG_20191214_151634.1c2f7dc3.jpg",
     "static/media/IMG_20191214_174455.jpg": "/static/media/IMG_20191214_174455.04fab50f.jpg",
     "static/media/IMG_20191214_175017.jpg": "/static/media/IMG_20191214_175017.0433d2b3.jpg",
     "static/media/IMG_20191214_3103350.jpg": "/static/media/IMG_20191214_3103350.fe22b112.jpg",
@@ -62,7 +61,7 @@
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
     "static/css/2.e94cead9.chunk.css",
-    "static/js/2.b33ccaf4.chunk.js",
-    "static/js/main.0f8fe4a0.chunk.js"
+    "static/js/2.79e4e30e.chunk.js",
+    "static/js/main.5c3047e7.chunk.js"
   ]
 }
