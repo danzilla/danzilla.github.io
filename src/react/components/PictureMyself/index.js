@@ -4,9 +4,7 @@ import { Carousel, Button, Row, Col } from 'antd';
 import anime from 'animejs';
 import Tilt from 'react-tilt';
 import { Image } from 'antd';
-import axios from 'axios';
-
-const contentStyle = { background: '#364d79' };
+import Masonry from 'react-masonry-css'
 
 // get ALL images
 function importAll(r) {
@@ -24,21 +22,31 @@ function LandingPage() {
     dotPosition: "left"
   };
 
+  // BrewakPoints for grid
+  const breakpointColumnsObj = {
+    default: 3,
+    1100: 3,
+    700: 3,
+    500: 2
+  };
+
   useEffect(() => {
     //
   }, []);
 
   return (
     <Row className="p-2" type="flex" justify="center" align="middle">
-      <Col style={{ width: "89%"}}>
+      <Col style={{ width: "100%", height: "100%"}}>
 
-        <Carousel effect="fade" autoplay dotPosition={'top'}>
+        <Masonry
+          breakpointCols={breakpointColumnsObj}
+          className="my-masonry-grid"
+          columnClassName="my-masonry-grid_column">
+          {/* array of JSX items */}
           {images.map((img, index) => (
-            <div>
-              <Image alt="Danustan Alphonza - 'Photograpy', 'coding', 'hobby' " key={index} width="100%" src={img} />
-            </div>
+            <Image className="card-2" alt="Danustan Alphonza - 'Photograpy', 'coding', 'hobby' " key={index} src={img} />
           ))}
-        </Carousel>
+        </Masonry>
 
       </Col>
     </Row>
