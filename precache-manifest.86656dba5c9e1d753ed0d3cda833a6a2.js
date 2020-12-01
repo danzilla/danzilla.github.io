@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d61fb63df52a5ea6daf82dd1182466bc",
+    "revision": "11cd89027e323584daebe028e2eb9504",
     "url": "/index.html"
   },
   {
-    "revision": "8f72e227214b10fd41c9",
+    "revision": "b3a78710c44b61467b54",
     "url": "/static/css/2.bedb600e.chunk.css"
   },
   {
-    "revision": "8f72e227214b10fd41c9",
-    "url": "/static/js/2.7825f490.chunk.js"
+    "revision": "b3a78710c44b61467b54",
+    "url": "/static/js/2.8bef7e0d.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.7825f490.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.8bef7e0d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ea6040112eb4a2c00590",
-    "url": "/static/js/main.bc2e2d3d.chunk.js"
+    "revision": "9a216b66671e1d98dea3",
+    "url": "/static/js/main.205ece49.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
     "url": "/static/js/runtime-main.09b85ec0.js"
+  },
+  {
+    "revision": "e532af544f9eb983ca7beeb0af517b62",
+    "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby.e532af54.jpg"
   },
   {
     "revision": "8cc28e616e506ba948be41807892d101",
@@ -36,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_10.64d0d64a.jpg"
   },
   {
-    "revision": "e92e24619e0649bce93282ca6d4e81af",
-    "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_11.e92e2461.jpg"
+    "revision": "ea052935f7730fa4a937c20a85010568",
+    "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_11.ea052935.jpg"
   },
   {
     "revision": "c74d300069c103a2d396ab8d7ce37949",
@@ -90,6 +94,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "edec0994396599fefc8f865fb558342f",
     "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_23.edec0994.jpg"
+  },
+  {
+    "revision": "3d967031c7fb2eb363f5d806687623b5",
+    "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_2330.3d967031.jpg"
   },
   {
     "revision": "93bbd364b007a1c18b727080a01e4cee",
@@ -222,5 +230,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "07783c3f4ef0ad6087c29dc3edb6fd67",
     "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_9.07783c3f.jpg"
+  },
+  {
+    "revision": "7a2991bfe410a4ce6447c2cb81b82046",
+    "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_A2330.7a2991bf.jpg"
+  },
+  {
+    "revision": "8e0d216260e6e5d176fa8930b81b86eb",
+    "url": "/static/media/IMG_20190923_165211.8e0d2162.jpg"
   }
 ]);
