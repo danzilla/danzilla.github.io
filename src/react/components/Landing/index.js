@@ -4,6 +4,8 @@ import { Button, Row, Col } from 'antd';
 import anime from 'animejs';
 import Particles from 'react-particles-js';
 
+import SVGDance from './randomSvg';
+
 // LandingPage
 function LandingPage() {
   const animation_1 = useRef(null);
@@ -60,44 +62,11 @@ function LandingPage() {
         delay: (el, i) => 45 * (i + 1)
       });
 
-    {/* animation_1 */ }
-    animation_1.current = anime.timeline({
-      targets: '.el1',
-      easing: 'easeOutExpo', // Can be inherited
-      direction: 'alternate', // Is not inherited
-      loop: false, // Is not inherited
-      duration: 500, // Can be inherited
-      delay: function (el1, i) { return i * 200 },
-    }).add({
-      translateX: 200,
-      easing: 'spring',
-    })
-      .add({
-        targets: '.el1',
-        rotate: 180,
-        easing: 'spring',
-      })
-      .add({
-        targets: '.el1',
-        rotate: 360,
-        easing: 'spring',
-      })
-      .add({
-        translateX: 260,
-        scale: 1,
-        easing: 'spring',
-      })
-      .add({
-        translateX: 0,
-        easing: 'spring',
-      });
-
-
   }, []);
 
   return (
     <>
-      <div className="" style={{ position: "relative" }}>
+      <div style={{ position: "relative" }}>
         <div style={{ position: 'absolute', height: '100vh', width: '100vh' }}>
           <Particles
             params={{
@@ -146,10 +115,9 @@ function LandingPage() {
         </div>
       </div>
 
-      <Row style={{ height: "100%", width: "100%", overflow: "hidden" }} type="flex" justify="center" align="middle">
+      <Row style={{ height: "50%", width: "100%", overflow: "hidden" }} type="flex" justify="center" align="middle">
         <Col className="card-4 p-2">
-          <h1 class="c1" style={{ overflow: 'hidden', color: "white" }}> Danustan Alphonza</h1>
-
+          <h1 class="c1" style={{ overflow: 'hidden', color: "#19f6e8" }}> Danustan Alphonza</h1>
           <Button type="link" danger size={'large'}> 
             <a href="http://github.com/danzilla/"> Github</a> 
           </Button>
@@ -160,6 +128,9 @@ function LandingPage() {
             <a href="http://instagram.com/danzilla07/">{} Instagram</a> 
           </Button>
         </Col>
+      </Row>
+      <Row style={{ height: "", width: "100%", overflow: "hidden" }} type="flex" justify="center" align="middle">
+        <SVGDance />
       </Row>
 
     </>
