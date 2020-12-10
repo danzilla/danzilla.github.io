@@ -29,6 +29,9 @@
   │   └── index.js
   |   └── serviceWorker.js
 ```
+# :peacock: Publish to Github 
+- Deploy to Github
+  - > npm run deploy
 
 # :tropical_drink: Deploy Client 
 - Install app dependecies using npm or another package manger
