@@ -73,7 +73,7 @@ function Resume() {
             </g>
           </svg>
 
-          <div className="p-3" style={{position: "relative", zIndex: '100' }}>
+          <div className="p-3 card-2" style={{position: "relative", zIndex: '100' }}>
             <Education />
           </div>
         </div>
