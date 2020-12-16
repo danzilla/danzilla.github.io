@@ -23,10 +23,6 @@ function LandingPage() {
       loop: true,
       direction: 'alternate'
     });
-
-
-
-
   }, []);
 
   return (
@@ -106,6 +102,3 @@ function LandingPage() {
 // State LandingPage
 const mapStateToProps = state => { return { data: state }; };
 export default connect(mapStateToProps)(LandingPage);
-
-
-

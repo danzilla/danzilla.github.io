@@ -1,7 +1,8 @@
 import React from "react";
 import { connect } from "react-redux";
 import { Row, Col, Image } from 'antd';
-import Masonry from 'react-masonry-css'
+import LazyLoad from 'react-lazy-load';
+import Masonry from 'react-masonry-css';
 
 // get ALL images
 function importAll(r) {
@@ -18,18 +19,23 @@ function PictureMeMyself() {
     700: 3,
     500: 2
   };
-  // display grid
+  // Display grid
   return (
     <Row className="p-2" type="flex" justify="center" align="middle">
       <Col style={{ width: "100%", height: "100%" }}>
 
         <Masonry
           breakpointCols={breakpointColumnsObj}
-          className="my-masonry-grid"
-          columnClassName="my-masonry-grid_column">
+          className="my-masonry-grid" columnClassName="my-masonry-grid_column">
           {/* array of JSX items */}
           {images.map((img, index) => (
-            <Image className="card-2" alt="Danustan Alphonza - 'Photograpy', 'coding', 'hobby' " key={index} src={img} />
+            <LazyLoad onContentVisible={() => console.log('look ma I have been lazyloaded: ' + index)}>
+              <Image
+                className="card-2" 
+                alt="Danustan Alphonza - 'Photograpy', 'coding', 'Yumm Yumm flavour-spicy foody', 'Dont want to get comfortable, wants to get comfortable with uncomfortable', 'SEO ho e ing'" 
+                key={index}
+                src={img} />
+            </LazyLoad>
           ))}
         </Masonry>
 

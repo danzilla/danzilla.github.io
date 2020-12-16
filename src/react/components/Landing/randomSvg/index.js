@@ -45,6 +45,7 @@ function RandomSVG() {
         }
       ]
     });
+
     animation_3.current = anime({
       targets: ".svgCool3 ",
       duration: 50000,
@@ -72,25 +73,22 @@ function RandomSVG() {
               transform="translate(406.17 212.83)">
               <g style={{
                 fill: 'transparent',
-                strokeDasharray: "540",
+                strokeDasharray: "550",
                 strokeWidth: "2px",
                 stroke: "rgba(25,246,232,0.10)",
                 animation: 'dash 2s linear alternate infinite',
               }}>
-                
-                <path className="svgCool3" d={path3} />
-                <path className="svgCool2" d={path2} />
-                <path className="svgCool1" d={path1} />
+                <path style={{ stroke: "rgba(25,246,232,0.10)" }} className="svgCool3" d={path3} />
+                <path style={{ stroke: "rgba(25,246,232,0.10)" }} className="svgCool2" d={path2} />
+                <path style={{ stroke: "rgba(25,246,232,0.10)" }} className="svgCool1" d={path1} />
 
-                <path className="svgCool1" d={path1} />
-                <path className="svgCool2" d={path2} />
-                <path className="svgCool3" d={path3} />
-
+                <path style={{ stroke: "rgba(215,46,32,0.10)" }} className="svgCool1" d={path1} />
+                <path style={{ stroke: "rgba(215,46,32,0.10)" }} className="svgCool2" d={path2} />
+                <path style={{ stroke: "rgba(215,46,32,0.10)" }} className="svgCool3" d={path3} />
               </g>
             </g>
           </g>
         </svg>
-
       </div>
     </>
   );
