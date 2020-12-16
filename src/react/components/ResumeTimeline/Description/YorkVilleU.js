@@ -21,7 +21,7 @@ function YorkVilleExp() {
       </Timeline.Item>
       {showYorkVille ? (<>
         <Timeline.Item color="blue">
-          Collaborate and Administrate with diverse teams to investigate and audit tickets and provide TSA support and expertise to Yorkville University clients
+          Collaborate and Administrate with diverse teams to investigate and audit tickets and provide support and expertise to Yorkville University clients
         </Timeline.Item>
       </>) : ("")
       }
