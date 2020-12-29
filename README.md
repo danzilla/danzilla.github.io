@@ -1,6 +1,7 @@
-# Resume - client :lips: :lipstick: :gift_heart:
-
-# To-Do
+# Danustan Alphonza
+## danzilla.github.io
+## MeMyselfI :japanese_goblin: :heartbeat: :japanese_ogre:
+### To-Do
 - [x] UI Library - Ant Design 
     -> https://ant.design/docs/react/getting-started
 - [ ] App Layout - Draw
@@ -8,7 +9,6 @@
 - [x] Redux-Thunk
 - [x] React-Hooks
     - > https://reactjs.org/docs/hooks-reference.html
-
 ### Client-folder Structure
 ```
   client
@@ -29,7 +29,9 @@
   │   └── index.js
   |   └── serviceWorker.js
 ```
-
+# :peacock: Publish to Github 
+- Deploy to Github
+  - > npm run deploy
 # :tropical_drink: Deploy Client 
 - Install app dependecies using npm or another package manger
   - > npm install

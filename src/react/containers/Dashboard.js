@@ -10,11 +10,11 @@ function Dashboard() {
   return (
     <Row style={{ height: "100vh"}}>
       <Col style={{ height: "100%", overflow: "hidden" }}
-        className="card-4 bodyNiceBlack2" xs={24} sm={24} md={8} lg={8}>
+        className="bodyNiceBlack2 animate__animated animate__fadeIn animate__delay-1s" xs={24} sm={24} md={8} lg={8}>
           <LandingPage />
       </Col>
       <Col style={{ height: "100%", overflow: "auto" }}
-        className="bodyNiceWhite" xs={24} sm={24} md={16} lg={16}>
+        className="bodyNiceWhite animate__animated animate__fadeIn animate__delay-2s" xs={24} sm={24} md={16} lg={16}>
           <ResumeTimeline />
           <PictureMyself />
       </Col>
