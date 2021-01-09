@@ -10,8 +10,8 @@ function RBC() {
     <>
       {/* RBC */}
       <Timeline.Item color="green">
-        Global Cloud and Virtualization - RBC
-        <br /> Virtualization Analyst
+        <b>Intern - Virtualization Analyst</b>
+        <br />Global Cloud and Virtualization - RBC
         <br /> <Text type="danger">May 2016 – Aug 2016</Text>
         {showRBC ? (
           <Button type="link" onClick={() => setShowRBC(false)}> <UpOutlined /> </Button>

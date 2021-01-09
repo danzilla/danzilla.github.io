@@ -10,8 +10,8 @@ function CIBC() {
     <>
       {/* CIBC */}
       <Timeline.Item color="green">
-        Intria - Global Infrastructure - CIBC
-        <br /> Wintel Engineer
+        <b>Intern - Wintel Engineer</b>
+        <br />Intria - Global Infrastructure - CIBC
         <br /> <Text type="danger">Jan 2014 – May 2014</Text>
         {showCIBC ? (
           <Button type="link" onClick={() => setShowCIBC(false)}> <UpOutlined /> </Button>

@@ -10,8 +10,8 @@ function UOITDev() {
     <>
       {/* UOIT2 */}
       <Timeline.Item color="green">
-        Faculty of Social Science – Ontario Tech University
-        <br /> Web Developer - Research Assistant
+        <b>Research Assistant - Web Developer</b>
+        <br />Faculty of Social Science – Ontario Tech University
         <br /> <Text type="danger">Sep 2016 – Apr 2017</Text>
         {showUOIT2 ? (
           <Button type="link" onClick={() => setShowUOIT2(false)}> <UpOutlined /> </Button>

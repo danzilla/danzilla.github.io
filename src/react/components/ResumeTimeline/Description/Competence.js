@@ -42,7 +42,7 @@ class Competence extends Component {
           {/* Library */}
           <Col xs={24} sm={24} md={10} lg={8}>
             <Timeline mode='right'>
-              <Timeline.Item color="green" label={<p>Framework, Library, Enginez</p>}>
+              <Timeline.Item color="green" label={<p>Framework, Library, Engines</p>}>
                 <Text type="danger">Python flask</Text></Timeline.Item>
               <Timeline.Item color="red"><Text type="danger">Node.JS</Text></Timeline.Item>
               <Timeline.Item color="green" label={<p>Backend</p>}><Text type="danger">Expres.JS, Passport.JS</Text></Timeline.Item>
