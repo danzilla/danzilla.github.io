@@ -22,9 +22,9 @@ function CrypToMillExp() {
       {showCrypToMill ? (<>
         <Timeline.Item color="blue">
           CODA – Encrypted communication platform to share secure contents between parties - cryptomill.com/solutions/coda
-        </Timeline.Item>
-        <Timeline.Item color="blue">
-          Stacks – NodeJs - ExpressJs (REST) | Vue.js, Bootstrap | Nginx | MongoDB
+          <ul>
+            <li>Stacks – NodeJs - ExpressJs (REST) | Vue.js, Bootstrap | Nginx | MongoDB</li>
+          </ul>
         </Timeline.Item>
       </>) : ("")
       }
