@@ -21,8 +21,9 @@ function CrypToMillExp() {
       </Timeline.Item>
       {showCrypToMill ? (<>
         <Timeline.Item color="blue">
-          CODA – Encrypted communication platform to share secure contents between parties - cryptomill.com/solutions/coda
+          CODA – Encrypted communication platform to share secure contents between parties
           <ul>
+            <li>cryptomill.com/solutions/coda</li>
             <li>Stacks – NodeJs - ExpressJs (REST) | Vue.js, Bootstrap | Nginx | MongoDB</li>
           </ul>
         </Timeline.Item>
