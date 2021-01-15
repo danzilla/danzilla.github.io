@@ -10,7 +10,7 @@ function YorkVilleExp() {
     <>
       {/* YorkVilleU */}
       <Timeline.Item color="green">
-          <b>Lead - IT Operations Specialist</b>
+          <b>Team Lead - IT Operations Specialist</b>
           <br />Yorkville University
           <br /> <Text type="danger">Apr 2020 - Jan 2021</Text>
         {showYorkVille ? (
