@@ -10,8 +10,8 @@ function PCC() {
     <>
       {/* PCC */}
       <Timeline.Item color="green">
-        PC Corner Inc 
-        <br />IT Technician
+        <b>IT Technician</b>
+        <br />PC Corner Inc 
         <br /><Text type="danger">Sep 2009 – Aug 2012</Text>
         {showPCC ? (
           <Button type="link" onClick={() => setShowPCC(false)}> <UpOutlined /> </Button>

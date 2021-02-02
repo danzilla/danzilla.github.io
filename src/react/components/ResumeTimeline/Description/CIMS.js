@@ -10,8 +10,8 @@ function CIMSExp() {
     <>
       {/* CIMS */}
       <Timeline.Item color="green">
-        Carleton Immersive Media Studio – Carleton University
-        <br /> System Administrator
+        <b>System Administrator</b>
+        <br />Carleton Immersive Media Studio – Carleton University
         <br /> <Text type="danger">Jan 2018 – Aug 2019</Text>
         {showCIMS ? (
           <Button type="link" onClick={() => setShowCIMS(false)}><UpOutlined /></Button>

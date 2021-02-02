@@ -10,9 +10,9 @@ function AIMExp() {
     <>
       {/* AIM */}
       <Timeline.Item color="green">
-        Aim Health Group – McKesson Canada
-        <br /> Jr. System Administrator
-        <br /> <Text type="danger">May 2013 – Aug 2013</Text>
+        <b>Intern - Jr. System Administrator</b>
+        <br />Aim Health Group – McKesson Canada
+        <br /><Text type="danger">May 2013 – Aug 2013</Text>
         {showAIM ? (
           <Button type="link" onClick={() => setShowAIM(false)}> <UpOutlined /> </Button>
         ) : (
