@@ -2,16 +2,13 @@ import React, { useEffect, useRef } from "react";
 import { connect } from "react-redux";
 import { Button, Row, Col } from 'antd';
 import anime from 'animejs';
-
-import Iam from './iam'
+// Animinations
 import SVGDance from './randomSvg';
 import Sparkelx from './particles';
-
 // LandingPage
 function LandingPage() {
-  const animation_1 = useRef(null);
+  // Background Anime
   const bgMove = useRef(null);
-
   useEffect(() => {
     {/* Background */ }
     bgMove.current = anime({
@@ -23,14 +20,14 @@ function LandingPage() {
       direction: 'alternate'
     });
   }, []);
-
+  // Render Landing page
   return (
     <>
       <Sparkelx />
       <Row style={{ height: "50%", width: "100%", overflow: "hidden" }} type="flex" justify="center" align="middle">
         <Col className="p-2">
           <Row>
-            <h1 className="c1" style={{ overflow: 'hidden', color: "rgba(25, 246, 232, 0.36)" }}> 
+            <h1 style={{ overflow: 'hidden', color: "rgba(25, 246, 232, 0.36)" }}> 
               Danustan Alphonza
             </h1>
           </Row>
@@ -95,7 +92,6 @@ function LandingPage() {
     </>
   );
 }
-
 // State LandingPage
 const mapStateToProps = state => { return { data: state }; };
 export default connect(mapStateToProps)(LandingPage);

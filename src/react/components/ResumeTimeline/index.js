@@ -37,7 +37,9 @@ function Resume() {
         
         {/* Education */}
         <div className="card-2" style={{position: "relative", overflow: "hidden"}}>
-          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+          <svg 
+            className="svg1" width="100%" 
+            style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
             viewBox="110 190 450 350" preserveAspectRatio="xMidYMid meet">
             <g>
               <path
@@ -46,7 +48,9 @@ function Resume() {
                 fill="rgba(136, 225, 252, 0.1)" />
             </g>
           </svg>
-          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+          <svg 
+            className="svg1" width="100%" 
+            style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
             viewBox="25 105 430 400" preserveAspectRatio="xMidYMid meet">
             <g>
               <path
@@ -55,7 +59,9 @@ function Resume() {
                 fill="rgba(136, 225, 252, 0.1)" />
             </g>
           </svg>
-          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+          <svg 
+            className="svg1" width="100%" 
+            style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
             viewBox="10 100 550 330" preserveAspectRatio="xMidYMid meet">
             <g>
               <path
@@ -64,7 +70,9 @@ function Resume() {
                 fill="rgba(136, 225, 252, 0.1)" />
             </g>
           </svg>
-          <svg className="svg1" width="100%" style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
+          <svg 
+            className="svg1" width="100%" 
+            style={{ bottom: '0', position: 'absolute', transform: 'rotate(180deg)'}}
             viewBox="10 120 550 200" preserveAspectRatio="xMidYMid meet">
             <g> 
               <path 
