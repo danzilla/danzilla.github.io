@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/static/js/main.4dc9e533.chunk.js",
-    "main.js.map": "/static/js/main.4dc9e533.chunk.js.map",
+    "main.js": "/static/js/main.226a4f27.chunk.js",
+    "main.js.map": "/static/js/main.226a4f27.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
     "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
-    "static/css/2.51d1b848.chunk.css": "/static/css/2.51d1b848.chunk.css",
-    "static/js/2.6d95c820.chunk.js": "/static/js/2.6d95c820.chunk.js",
-    "static/js/2.6d95c820.chunk.js.map": "/static/js/2.6d95c820.chunk.js.map",
+    "static/css/2.81a56f33.chunk.css": "/static/css/2.81a56f33.chunk.css",
+    "static/js/2.32f0f42b.chunk.js": "/static/js/2.32f0f42b.chunk.js",
+    "static/js/2.32f0f42b.chunk.js.map": "/static/js/2.32f0f42b.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.28c642882d8f1a73fb750ede0d12d73e.js": "/precache-manifest.28c642882d8f1a73fb750ede0d12d73e.js",
+    "precache-manifest.85b3f133bc158ba725e160c3a5b8048b.js": "/precache-manifest.85b3f133bc158ba725e160c3a5b8048b.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/2.51d1b848.chunk.css.map": "/static/css/2.51d1b848.chunk.css.map",
-    "static/js/2.6d95c820.chunk.js.LICENSE.txt": "/static/js/2.6d95c820.chunk.js.LICENSE.txt",
+    "static/css/2.81a56f33.chunk.css.map": "/static/css/2.81a56f33.chunk.css.map",
+    "static/js/2.32f0f42b.chunk.js.LICENSE.txt": "/static/js/2.32f0f42b.chunk.js.LICENSE.txt",
     "static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_0.jpg": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_0.f1256b8c.jpg",
     "static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_1.jpg": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_1.7ff593ed.jpg",
     "static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_10.jpg": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_10.953dbbe3.jpg",
@@ -67,8 +67,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.09b85ec0.js",
-    "static/css/2.51d1b848.chunk.css",
-    "static/js/2.6d95c820.chunk.js",
-    "static/js/main.4dc9e533.chunk.js"
+    "static/css/2.81a56f33.chunk.css",
+    "static/js/2.32f0f42b.chunk.js",
+    "static/js/main.226a4f27.chunk.js"
   ]
 }
