@@ -67,7 +67,7 @@ function LandingPage() {
               </a>
             </Button>
             <Button type="link" danger size={'large'}> 
-              <a href="http://instagram.com/danzilla07/">
+              <a href="mailto:dan.alphonza@gmail.com">
                 <svg enable-background="new 0 0 32 32" height="32px" viewBox="0 0 32 32" width="32px">
                   <g id="Gmail">
                     <path d="M27,27c-0.276,0-0.5-0.224-0.5-0.5v-13c0-0.276,0.224-0.5,0.5-0.5s0.5,0.224,0.5,0.5v13   C27.5,26.776,27.276,27,27,27z" fill="#263238"/>
