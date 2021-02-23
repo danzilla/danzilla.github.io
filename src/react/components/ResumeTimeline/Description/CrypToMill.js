@@ -24,7 +24,7 @@ function CrypToMillExp() {
           CODA – Encrypted communication platform to share secure contents between parties
           <ul>
             <li>cryptomill.com/solutions/coda</li>
-            <li>Stacks – NodeJs - ExpressJs (REST) | Vue.js, Bootstrap | Nginx | MongoDB</li>
+            <li>Stacks – NodeJs - ExpressJs (REST) | ReactJs, ReduxJS, Bootstrap | Nginx | MongoDB</li>
           </ul>
         </Timeline.Item>
       </>) : ("")
