@@ -27,7 +27,8 @@ function LandingPage() {
       <Row style={{ height: "50%", width: "100%", overflow: "hidden" }} type="flex" justify="center" align="middle">
         <Col className="p-2">
           <Row>
-            <h1 style={{ overflow: 'hidden', color: "rgba(25, 246, 232, 0.36)" }}> 
+            <h1 className="font-1" 
+              style={{ overflow: 'hidden', color: "rgba(25, 246, 232, 0.36)" }}> 
               Danustan Alphonza
             </h1>
           </Row>

@@ -9,11 +9,8 @@ class Projects extends Component {
     return (
       <>
         <Row className="py-1" style={{ height: 'auto' }} type="flex" justify="center" align="middle">
-          
-          <Row> <Title level={2} type={"danger"}>Projects</Title> </Row>
-
+          <Row> <Title className="font-2" style={{ color: "#08979c" }} level={2} type="danger">Projects</Title> </Row>
           <Row>
-
             <Col className="m-1" style={{position: "relative", overflow: "hidden"}}>
               <Card style={{ width: 220 }}>
                 <Meta className="my-1" title={<a href="https://github.com/danzilla/blingBlaw">Minimalist budget App</a>} />
