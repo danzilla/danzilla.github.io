@@ -4,7 +4,6 @@ import { Row, Col, Timeline } from 'antd';
 import anime from 'animejs';
 // Resume Componets
 import Education from './Description/Education';
-import CrypToMill from './Description/CrypToMill';
 import YorkVilleU from './Description/YorkVilleU';
 import CIMS from './Description/CIMS';
 import UOITDev from './Description/UOITDev';
@@ -123,7 +122,6 @@ function Resume() {
           </svg>
           <div className="p-3" style={{position: "relative", zIndex: '100' }}>
             <Timeline>
-              <CrypToMill />
               <YorkVilleU />
               <CIMS />
               <UOITDev />

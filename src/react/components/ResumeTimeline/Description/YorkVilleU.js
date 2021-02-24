@@ -12,7 +12,7 @@ function YorkVilleExp() {
       <Timeline.Item color="green">
           <b>Team Lead - IT Operations Specialist</b>
           <br />Yorkville University
-          <br /> <Text type="danger">Apr 2020 - Present</Text>
+          <br /> <Text type="danger">Apr 2020 - Jan 2021</Text>
         {showYorkVille ? (
           <Button type="link" onClick={() => setShowYorkVille(false)}> <UpOutlined /></Button>
         ) : (

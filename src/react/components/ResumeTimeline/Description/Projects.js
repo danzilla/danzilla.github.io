@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import { Row, Col, Timeline, Typography, Card, Tag, Button } from 'antd';
-const { Text, Title } = Typography;
+import { Row, Col, Typography, Card, Tag } from 'antd';
+const { Title } = Typography;
 const { Meta } = Card;
 // Projects
 class Projects extends Component {
