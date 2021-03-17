@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2a2b460b87a653943a8e3012973d4a08",
+    "revision": "dd7341699b3c69f30df7906875d80913",
     "url": "/index.html"
   },
   {
-    "revision": "90d19ca6b81198a7b745",
+    "revision": "aeb4715668134534a671",
     "url": "/static/css/2.f2ec99b7.chunk.css"
   },
   {
-    "revision": "90d19ca6b81198a7b745",
-    "url": "/static/js/2.cacc484e.chunk.js"
+    "revision": "aeb4715668134534a671",
+    "url": "/static/js/2.82ecfba3.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.cacc484e.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.82ecfba3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d6e39df3cb7b3ce43977",
-    "url": "/static/js/main.bfe01744.chunk.js"
+    "revision": "0d3de7745de12bcfe54d",
+    "url": "/static/js/main.31036364.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
@@ -58,10 +58,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "92cc30faf9041c98baef0f12a508c972",
     "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_16.92cc30fa.jpg"
-  },
-  {
-    "revision": "bfeee124ef4f253342a0d446f3493e82",
-    "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_17.bfeee124.jpeg"
   },
   {
     "revision": "a35b880c69ff3dae201da64b94ecf929",
