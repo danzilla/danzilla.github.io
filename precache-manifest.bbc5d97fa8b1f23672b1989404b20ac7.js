@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd7341699b3c69f30df7906875d80913",
+    "revision": "faa089a03fe575ebb51246c8de832bc9",
     "url": "/index.html"
   },
   {
-    "revision": "aeb4715668134534a671",
+    "revision": "793bbeceb2d3658d0158",
     "url": "/static/css/2.f2ec99b7.chunk.css"
   },
   {
-    "revision": "aeb4715668134534a671",
-    "url": "/static/js/2.82ecfba3.chunk.js"
+    "revision": "793bbeceb2d3658d0158",
+    "url": "/static/js/2.64753e59.chunk.js"
   },
   {
     "revision": "29eb69a08ea4198f7b46e1db8a3d5045",
-    "url": "/static/js/2.82ecfba3.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.64753e59.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0d3de7745de12bcfe54d",
-    "url": "/static/js/main.31036364.chunk.js"
+    "revision": "59fa8281c212487e0c61",
+    "url": "/static/js/main.4131422f.chunk.js"
   },
   {
     "revision": "9b4e396c183e42c1fa5c",
     "url": "/static/js/runtime-main.09b85ec0.js"
+  },
+  {
+    "revision": "b3b0fda415bc463aae44fd2cd6aad4a2",
+    "url": "/static/media/Danustan_Alphonza_I_Can_See_the_Tower.b3b0fda4.jpg"
   },
   {
     "revision": "f1256b8cb95dccd4f4d4f1e52f942d10",
@@ -226,5 +230,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "9811407d0421cf648adde59212bf68eb",
     "url": "/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_9.9811407d.jpg"
+  },
+  {
+    "revision": "6d20c0128ada088c1ab3845616cabc79",
+    "url": "/static/media/Danustan_Alphonza_goku_son.6d20c012.jpg"
   }
 ]);

@@ -309,4 +309,16 @@
     <image:title>Danustan Alphonza - Flower </image:title>
     <image:image><image:loc>Https://danzilla.github.io/static/media/Danustan_Alphonza_danzilla_danustan_spicy_food_code_hobby_9.9811407d.jpg</image:loc></image:image>
   </url>
+  <url>
+    <loc>https://danzilla.github.io</loc>
+    <priority>0.90</priority>
+    <image:title>Danustan Alphonza - Cloud Sky </image:title>
+    <image:image><image:loc>Https://danzilla.github.io/static/media/Danustan_Alphonza_I_Can_See_the_Tower.b3b0fda4.jpg</image:loc></image:image>
+  </url>
+    <url>
+    <loc>https://danzilla.github.io</loc>
+    <priority>0.90</priority>
+    <image:title>Danustan Alphonza - Goku </image:title>
+    <image:image><image:loc>Https://danzilla.github.io/static/media/Danustan_Alphonza_goku_son.6d20c012.jpg</image:loc></image:image>
+  </url>
 </urlset>
