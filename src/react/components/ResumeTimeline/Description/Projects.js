@@ -70,6 +70,20 @@ class Projects extends Component {
                 <Tag color="green">Bootstrap</Tag>
               </div>
             </Col>
+            <Col md={7} sm={20} className="card-2 m-1 p-1">
+              <Title level={5} type="danger">
+                <a href="https://github.com/danzilla/todo">To-Do Application</a>
+              </Title>
+              <div>
+                <Tag color="magenta">NodeJs</Tag>
+                <Tag color="gold">MongoDB</Tag>
+                <Tag color="volcano">Express</Tag>
+                <Tag color="geekblue">React</Tag>
+                <Tag color="lime">Redux+Thunk</Tag>
+                <Tag color="purple">Bootstrap</Tag>
+                <Tag color="red">Axios</Tag>
+              </div>
+            </Col>
           </Row>
         </Col>
         
